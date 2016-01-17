@@ -63,6 +63,7 @@ public abstract class Polygon {
 		sum += (vertices[len - 1].y + vertices[0].y) * (vertices[len - 1].x * vertices[0].y - vertices[0].x * vertices[len - 1].y);
 		 
 		return (1D / (getSignedArea() * 6D)) * sum;
+		
 	}
 	
 	public double getSignedArea() {
